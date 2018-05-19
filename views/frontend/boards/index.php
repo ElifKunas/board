@@ -16,7 +16,7 @@ echo '<div class="list-group">
     
     Modal::begin([
       'header' => '<h4>'.$value['title'].'</h4>',
-      'toggleButton' => ['label' => 'Ayrıntı için tıklayınız'],
+      'toggleButton' => ['label' => '<div class="btn btn-success">Ayrıntı için tıklayınız</div>'],
      ]);
   
     echo $value['content'];
