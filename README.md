@@ -1,4 +1,4 @@
-Board modülü; birden fazla etkinlik, haber ya da duyuruyu tek bir panoda yayınlamak için kullanılır. Projede hangi oturum ile giriş yapılırsa kullanıcı adı oturum adından alır. Acil duyuruları üst tarafta, normal duyuruları ise alt tarafta gösterir. Duyuruların üzerinde geldiğimizde alert penceresinde gösterir. Content kısmına html kodu yazarak daha görsel arayüz ekleyebiliriz. Modülde panoya; duyuru ekleme, silme, güncellem ve silme işlemleri yapılır. Eğer duyuru eklemek gibi işlemleri yapmak istiyorsak oturum açmak gerekir.
+Board modülü; birden fazla etkinlik, haber ya da duyuruyu tek bir panoda yayınlamak için kullanılır. Projede hangi oturum ile giriş yapılırsa kullanıcı adı oturum adından alır. Acil duyuruları üst tarafta, normal duyuruları ise alt tarafta gösterir. Duyuruların üzerinde geldiğimizde alert penceresinde gösterir. Content kısmına html kodu yazarak daha görsel arayüz ekleyebiliriz. Modülde panoya; duyuru ekleme, silme, güncelleme ve silme işlemleri yapılır. Eğer duyuru eklemek gibi işlemleri yapmak istiyorsak oturum açmak gerekir.
 
 
 KURULUM
@@ -20,8 +20,10 @@ Aşağıdaki kod satırları eklenir.
 .
 .
         {
+        
             "type": "vcs",
             "url": "https://github.com/ElifKunas/board.git"
+            
         }
 ],
 
@@ -29,8 +31,11 @@ Aşağıdaki kod satırları eklenir.
 .
 .
 .
+
             "kouosl/board": "dev-master"
+            
 },
 
 4-)Bu ayarları yaptıktan sonra böylelikle modülümüzü proje dosyasına ekledik.
+
 5-)Biz portal-gii de web sayfası oluşturduğumuzdan dolayı modüle ulaşmak için tarayıcı linkine http://elifkunas.kouosl/board url' i yazılır.
