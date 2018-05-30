@@ -38,4 +38,18 @@ Aşağıdaki kod satırları eklenir.
 
 4-)Bu ayarları yaptıktan sonra böylelikle modülümüzü proje dosyasına ekledik.
 
-5-)Biz portal-gii de web sayfası oluşturduğumuzdan dolayı modüle ulaşmak için tarayıcı linkine http://elifkunas.kouosl/board url' i yazılır.
+5-)Modülde gerekli tabloların oluşması için puty ya da cmd'de proje dosyamıza geldikten sonra  aşağıdaki komut satırını uyguluyoruz.
+
+php yii migrate --migrationPath=@vendor/kouosl/board/migrations --interactive=0
+
+6-)Bu proje dosyamızın içindeki vendor/kouosl/board/migrations dizininin altında migration dosyası oluşturur. Yapılan bu değişiklikleri veritabanına kayıt edilmesi için aşağıdaki komut satırı çalıştırılır.
+
+php yii migrate 
+
+7-)Modülün projeye kurulması için putty'de proje dosyasının dizininde iken 
+
+composer update
+
+yazılarsk modül projeye eklenir.
+
+8-)Biz portal-gii de web sayfası oluşturduğumuzdan dolayı modüle ulaşmak için tarayıcı linkine http://elifkunas.kouosl/board url' i yazılır.
