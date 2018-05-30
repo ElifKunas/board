@@ -4,12 +4,13 @@ Board modülü; birden fazla etkinlik, haber ya da duyuruyu tek bir panoda yayı
 KURULUM
 
 1-)Yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır.
+
 2-)Dosyayı oluşturmak istediğiniz dizine yazdıktan sonra aşağıdaki komut satırı uygulanır.
 
 git clone https://github.com/ElifKunas/board.git board
 
 3-)board adındaki dosyayı oluşturduktan sonra proje dosyamızın composer.json dosyası açılır. 
-Aşağıdaki kod satıları eklenir.
+Aşağıdaki kod satırları eklenir.
 
 .
 .
